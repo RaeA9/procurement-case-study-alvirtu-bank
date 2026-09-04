@@ -1,55 +1,51 @@
-# AlVirtu Bank — دراسة حالة مشتريات نظام مصرفي أساسي
+# AlVirtu Bank — Procurement Operations & TPRM Case Study
 
-> **دراسة حالة افتراضية.** AlVirtu Bank بنك وهمي. ليست تعاقداً حقيقياً ولا تمثيلاً لأي بنك أو مورد قائم.
+**Author:** Raed Al-Alanazi | Procurement & Operational Excellence Professional
 
-ملف بورتفوليو لمسار شراء كامل: استبدال Core Banking في بنك سعودي، من استخبارات السوق حتى استراتيجية الخروج، مع شرط توطين بيانات ساما وتحليل TCO يكشف الرسوم الخفية.
+> Simulated educational case study. AlVirtu Bank is a fictional Saudi bank. This is not a live engagement and does not represent any real institution or vendor.
 
-## النتيجة المختصرة
+---
 
-| المورد | العرض المعلن (5 سنوات) | بعد الرسوم الخفية | القرار |
-| :--- | ---: | ---: | :--- |
-| أ — تقليدي | 58.3 مليون دولار | 74.2 مليون (+27%) | غير مؤهل (توطين البيانات) |
-| **ب — مرن** | 48.5 مليون | 56.75 مليون (+17%) ثم **51.65 مليون / 7 سنوات بعد التفاوض** | **الفائز** — 92/100 |
-| ج — رخيص | 36.5 مليون | 69.85 مليون (+91%) | غير مؤهل (توطين + فخ تسعير) |
-| د — سحابي حديث | 40–65 مليون تقديري | — | معيار استكشافي فقط، خارج الترسية |
+## 1. Executive Summary
 
-الدرس: السعر المعلن ≠ التكلفة الحقيقية.
+**Objective:** Design and implement a robust, end-to-end digital procurement and Third-Party Risk Management (TPRM) framework for a simulated tier-1 banking environment (AlVirtu Bank).
 
-## المسار
+**Key Scope:** Strategic sourcing, price benchmarking, SAMA regulatory compliance, and cost-optimization models.
 
-| المرحلة | المجلد | التاريخ في السرد |
-| :--- | :--- | :--- |
-| 00 تحضير | `00_Intelligence_and_Preparation` | 15–20 يونيو 2026 |
-| 01 طرح | `01_RFP_and_Bidding_Documents` | 10 يوليو 2026 |
-| 02 تحليل | `02_Proposal_Analysis_and_Hidden_Fees` | 20–24 أغسطس 2026 |
-| 03 اختيار | `03_Final_Evaluation_and_Selection` | 1–8 سبتمبر 2026 |
-| 04 عقد | `04_Negotiation_and_Contract_Finalization` | 12–18 سبتمبر 2026 |
-| 05 هجرة | `05_Migration_and_Go_Live_Execution` | 1 أكتوبر 2026 |
-| 06 حوكمة وخروج | `06_Governance_and_Exit_Strategy` | 18 سبتمبر 2026 |
+| Item | Outcome |
+| :--- | :--- |
+| Challenge | Lowest published bid inflates after signature |
+| Method | 5-year TCO + SAMA data-residency knockout on every environment |
+| Award | Disqualified +91% bid; selected +17% bid; locked **USD 51.65 million / 7 years** after negotiation |
 
-كل وثيقة لها نسخة عربية ونسخة `*_EN.md`.
+---
 
-## ما صُحّح في هذه النسخة
+## 2. Core Modules & Repository Structure
 
-- تواريخ متسلسلة بدل تاريخ واحد على كل الملفات.
-- قيمة العقد بعد التفاوض: **51.65 مليون دولار / 7 سنوات** (صيانة 17.5%، Sandbox مجاني).
-- توافق SLA: توفر مستهدف **99.95%**، RTO 4 ساعات، RPO 15 دقيقة.
-- توحيد التدريب: 500 موظف + 500 ساعة نقل معرفة.
-- أ و ج: إقصاء من الترسية؛ الدرجات للشفافية فقط. BATNA = عرض معدّل من أ بشرط توطين كامل.
-- المورد د مذكور كمعيار لا كمرشح ترسية.
-- الموجة الأخيرة ليست Big Bang.
-- ضمان حسن تنفيذ، ضمان دفعة مقدمة، تأمين مهني، ملكية التخصيص، قانون سعودي + تحكيم SCCA.
-- أصحاب مصلحة: الهيئة الشرعية ومسؤول حماية البيانات.
-- توطين البيانات دون رقم مادة أو نسبة غرامة مخترعة.
-- مسح البيانات وفق NIST SP 800-88 وليس DoD سباعي التمرير.
-- إزالة تصنيف «سري» لأن المستودع عام.
+| Folder | Purpose |
+| :--- | :--- |
+| [`01-Spend-Analysis/`](01-Spend-Analysis/) | Spend categories, bid decomposition, hidden-fee traps, and TCO models |
+| [`02-TPRM-Framework/`](02-TPRM-Framework/) | Vendor qualification, risk scoring, SAMA/PDPL residency, and governance |
+| [`03-Cost-Optimization/`](03-Cost-Optimization/) | Negotiation kit, contract clauses, SLA, and exit-cost strategy |
 
-## للسيرة
+Source working papers by process phase remain under `00_` … `06_`.
 
-دراسة حالة منشورة — مشتريات نظام مصرفي أساسي (افتراضي).
-تحليل TCO لخمس سنوات، توطين بيانات وفق ساما، TPRM، وتفاوض عقدي.
-النتيجة: استبعاد عرض منخفض بتضخم +91%، وترسية عرض بتضخم +17% ثم تثبيت 51.65م على 7 سنوات.
+---
 
-## الرخصة
+## 3. Business Impact & Results (Simulated)
 
-MIT — انظر `LICENSE`.
+- Built a TCO model that reversed a 37% “cheapest bid” advantage into a 23% cost overrun once hidden fees were added.
+- Applied a data-residency knockout so non-compliant development and test environments could not reach award.
+- Designed validation and onboarding controls intended to cut vendor-onboarding bottlenecks by ~30% in a live operating model.
+- Established price-benchmarking and clause-review methods to protect savings at renewal, not only at award.
+
+---
+
+## How to read this repo
+
+1. This README 
+2. [`01-Spend-Analysis`](01-Spend-Analysis/) 
+3. [`02-TPRM-Framework`](02-TPRM-Framework/) 
+4. [`03-Cost-Optimization`](03-Cost-Optimization/) 
+
+Arabic and English versions of most working papers are in the phase folders (`*_EN.md`).
