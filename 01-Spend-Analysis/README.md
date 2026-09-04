@@ -1,14 +1,20 @@
 # 01 — Spend Analysis
 
-Data models and working papers for category spend, bid price build-up, hidden fees, and multi-year TCO.
+First professional step before an RFP: know the ledger, the rate, and the category that must carry the investment case.
 
-Add Excel or PDF extracts here when available. Current source files:
+Simulated FY2023–FY2025 dataset. Not live bank spend.
 
-| File | What it shows |
+| File | Role |
 | :--- | :--- |
-| [Market sounding](../00_Intelligence_and_Preparation/00_Market_Sounding_Report.md) | Category landscape and 50–120m USD planning range |
-| [Vendor bid build-up](../02_Proposal_Analysis_and_Hidden_Fees/02_Vendor_Bids_Detailed.md) | License, maintenance, SI, training |
-| [Hidden-fee traps](../02_Proposal_Analysis_and_Hidden_Fees/02_Hidden_Fees_Trap_Analysis.md) | Sandbox, after-hours, unbundled Islamic modules |
-| [5-year TCO + 7-year contracted value](../02_Proposal_Analysis_and_Hidden_Fees/02_TCO_Model_5Years_AlVirtu.md) | 56.75m pre-negotiation vs **51.65m / 7 years** awarded |
+| [01_Spend_Data_Model.xlsx](01_Spend_Data_Model.xlsx) | Raw ledger, category mix, vendor Pareto, replacement bridge |
+| [01_Spend_Data_Model.csv](01_Spend_Data_Model.csv) | Same raw ledger for tools that cannot open xlsx |
+| [02_Spend_Analysis_Report.md](02_Spend_Analysis_Report.md) | Narrative for a hiring manager or category board |
+| [02_Spend_Analysis_Report.pdf](02_Spend_Analysis_Report.pdf) | Printable copy of the same report |
+| [03_Spend_Optimization_Strategy.md](03_Spend_Optimization_Strategy.md) | How the ledger changes award design |
 
-English copies use the `_EN.md` suffix in the same source folders.
+## Headline numbers (from the workbook)
+
+- Three-year spend: **USD 72.11 million**
+- Core Systems: **63.4%**
+- Vendor A + Vendor B: **81.1%**
+- FY2025 maintenance on the incumbent licence: **22.3%**
