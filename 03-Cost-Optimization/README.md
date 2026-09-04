@@ -1,13 +1,14 @@
 # 03 — Cost Optimization
 
-Pre-award clause review, negotiation levers, contracted TCO, and exit-cost control.
+Turn the spend ledger and TPRM gates into money that survives signature.
 
-Add renewal-savings calculators here when available. Current source files:
+Simulated case. Not a live saving claim.
 
-| File | What it shows |
+| File | Purpose |
 | :--- | :--- |
-| [Final scoring](../03_Final_Evaluation_and_Selection/03_Final_Scoring_Summary.md) | Award to Vendor B (92/100); A and C ineligible |
-| [Negotiation kit](../03_Final_Evaluation_and_Selection/03_Negotiation_Preparation_Kit.md) | BATNA = rewritten, fully localized Vendor A bid only |
-| [Executed terms](../04_Negotiation_and_Contract_Finalization/04_Final_Contract_AlVirtu_with_Amendments.md) | USD 51.65m / 7 years, 17.5% maintenance, 10% performance bond |
-| [Escrow](../04_Negotiation_and_Contract_Finalization/04_Source_Code_Escrow_Agreement_Enhanced.md) | Source-code release triggers |
-| [Exit cost](../06_Governance_and_Exit_Strategy/06_Vendor_Exit_Strategy_Cost_Analysis_AlVirtu.md) | Switching cost and knowledge-transfer window |
+| [01_PreAward_Savings_Levers.md](01_PreAward_Savings_Levers.md) | Where value sits before the RFP is issued |
+| [02_Negotiation_Playbook.md](02_Negotiation_Playbook.md) | Walk-away, BATNA, and the five asks |
+| [03_Contracted_TCO_Lock.md](03_Contracted_TCO_Lock.md) | 56.75m pre-deal book versus **51.65m / 7 years** |
+| [04_Renewal_and_Exit_Economics.md](04_Renewal_and_Exit_Economics.md) | What renewal and exit must not reopen |
+
+Working papers behind these notes live in `03_Final_Evaluation_and_Selection`, `04_Negotiation_and_Contract_Finalization`, and `06_Governance_and_Exit_Strategy`.
