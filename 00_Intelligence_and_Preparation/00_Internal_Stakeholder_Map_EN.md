@@ -16,31 +16,31 @@ This document maps the internal power dynamics and influential stakeholders guid
 
 ### High Power – High Interest (Proactive Management / Strategic Partnership)
 
-**CEO (Chief Executive Officer):**
-- **Role:** Executive Sponsor of the project.
+**Chief Executive Officer (CEO):**
+- **Role:** Executive Sponsor and political sponsor of the project.
 - **Core Interest:** Protecting the bank's reputation, strict adherence to SAMA mandates, market share growth, and ensuring zero disruption to critical banking operations during the transition.
 - **Veto Power:** Can freeze or cancel the project entirely if any risk threatens the bank's stability or financial sector reputation.
 - **Engagement Strategy:** Monthly steering committee meetings and concise (3-page) executive dashboards.
 
-**COO (Chief Operating Officer):**
+**Chief Operating Officer (COO):**
 - **Role:** Business Continuity Kingpin and final recipient of system stability.
 - **Core Interest:** Branch and digital channel stability, Transactions Per Second (TPS) velocity, clearing and settlement efficiency, and End-of-Day (EOD) processing times. Focused on avoiding "operational chaos" and manual double-entry during migration.
 - **Veto Power:** Authority to halt the Go-Live decision if the system fails to demonstrate 100% stability in the pilot environment, or if the Rollback Plan is deemed unsafe.
 - **Engagement Strategy:** Appointed as Deputy Chair of the Steering Committee; directly involved in drafting SLAs and operational liquidation damages.
 
-**CIO (Chief Information Officer):**
+**Chief Information Officer (CIO):**
 - **Role:** Technical owner and overseer of Enterprise Architecture.
 - **Core Interest:** System modernity, scalability, API flexibility, ease of integration with legacy systems, and minimizing heavy customization.
 - **Veto Power:** Rejection of any vendor whose solution does not align with the bank's strategic technology roadmap or relies on outdated programming languages.
 - **Engagement Strategy:** Appointed as Head of the Technical Evaluation Committee; involved in first-line technical capability assessments.
 
-**CISO (Chief Information Security Officer):**
+**Chief Information Security Officer (CISO):**
 - **Role:** First line of cyber defense for the bank and customer data.
 - **Core Interest:** Preventing data exfiltration outside KSA (Data Residency), encryption of data at-rest and in-transit, and strict IAM (Identity and Access Management) for third-party developers.
 - **Veto Power:** Immediate and retroactive exclusion of any vendor failing to meet SAMA cybersecurity controls, regardless of financial attractiveness.
 - **Engagement Strategy:** Leading the drafting of the mandatory cybersecurity appendix in the RFP; overseeing continuous SAST/DAST code reviews.
 
-**CRO (Chief Risk Officer):**
+**Chief Risk Officer (CRO):**
 - **Role:** Assessing operational, credit, and sovereign risks arising from outsourcing the Core Banking system.
 - **Core Interest:** Vendor financial viability, vendor concentration risk, and verification of a secure Exit Strategy.
 - **Veto Power:** Refusal to sign off on the project risk assessment (a SAMA mandatory requirement) if the vendor relies on legally unapproved subcontractors.
@@ -68,7 +68,7 @@ This document maps the internal power dynamics and influential stakeholders guid
 
 ### High Power – Medium Interest (Keep Satisfied & Aligned)
 
-**CFO (Chief Financial Officer):**
+**Chief Financial Officer (CFO):**
 - **Core Interest:** Budget adherence, TCO model accuracy, milestone-based payment structures, and ROI.
 - **Veto Power:** Financial veto if costs exceed the approved feasibility study range without strategic justification.
 - **Engagement Strategy:** Dynamic financial models that expose hidden fees and prohibit random Change Orders.
@@ -84,15 +84,15 @@ This document maps the internal power dynamics and influential stakeholders guid
 
 ## 3. Strategic Conflicts & Alliances Analysis
 
-- **Conflict 1: COO & CISO vs. CIO (Stability/Security vs. Digital Innovation).**
-  - *Nature:* CIO may prefer cutting-edge Cloud-Native/Microservices, while COO/CISO favor established, locally-proven legacy solutions to avoid operational shocks or cyber gaps.
-  - *Procurement Solution:* Mandate that all vendors submit proven track records of the exact proposed version used in regional banks, with independent cyber audits.
+**Conflict 1: COO & CISO vs. CIO (Stability/Security vs. Digital Innovation):**
+- *Nature:* CIO may prefer cutting-edge Cloud-Native/Microservices, while COO/CISO favor established, locally-proven legacy solutions to avoid operational shocks or cyber gaps.
+- *Procurement Solution:* Mandate that all vendors submit proven track records of the exact proposed version used in regional banks, with independent cyber audits.
 
-- **Conflict 2: COO vs. CFO (Operational Quality/Support vs. Budget Pressure).**
-  - *Nature:* CFO pressures to minimize post-sale support costs, while COO demands 24/7 Premium Support with on-site vendor consultants in Riyadh during launch.
-  - *Procurement Solution:* Draft an "All-Inclusive" pricing clause in the RFP that bundles premium support and on-site emergency engineers into the base price to prevent later Change Orders.
+**Conflict 2: COO vs. CFO (Operational Quality/Support vs. Budget Pressure):**
+- *Nature:* CFO pressures to minimize post-sale support costs, while COO demands 24/7 Premium Support with on-site vendor consultants in Riyadh during launch.
+- *Procurement Solution:* Draft an "All-Inclusive" pricing clause in the RFP that bundles premium support and on-site emergency engineers into the base price to prevent later Change Orders.
 
-- **Strategic Alliance (The Power Triangle):** (CEO + COO + CISO + Compliance). This unified internal front ensures procurement negotiates with the authority of operations, national sovereignty, and security, cutting off any vendor attempting "technical concessions" for lower prices.
+**Strategic Alliance (The Power Triangle):** (CEO + COO + CISO + Compliance). This unified internal front ensures procurement negotiates with the authority of operations, national sovereignty, and security, cutting off any vendor attempting "technical concessions" for lower prices.
 
 ---
 
