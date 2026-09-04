@@ -1,51 +1,27 @@
 # AlVirtu Bank — Procurement Operations & TPRM Case Study
 
-**Author:** Raed Al-Alanazi | Procurement & Operational Excellence Professional
+**Author:** Raed  
+Simulated tier-1 Saudi bank. Not a live engagement.
 
-> Simulated educational case study. AlVirtu Bank is a fictional Saudi bank. This is not a live engagement and does not represent any real institution or vendor.
+## Executive overview
 
----
+End-to-end sourcing file: spend ledger → third-party risk → contracted TCO.  
+The work is written to SAMA data-residency, PDPL, and TPRM practice — as a teaching case, not a regulatory filing.
 
-## 1. Executive Summary
+## Repository structure
 
-**Objective:** Design and implement a robust, end-to-end digital procurement and Third-Party Risk Management (TPRM) framework for a simulated tier-1 banking environment (AlVirtu Bank).
-
-**Key Scope:** Strategic sourcing, price benchmarking, SAMA regulatory compliance, and cost-optimization models.
-
-| Item | Outcome |
+| Folder | What a reader should take |
 | :--- | :--- |
-| Challenge | Lowest published bid inflates after signature |
-| Method | 5-year TCO + SAMA data-residency knockout on every environment |
-| Award | Disqualified +91% bid; selected +17% bid; locked **USD 51.65 million / 7 years** after negotiation |
+| [01-Spend-Analysis](01-Spend-Analysis/) | FY2023–FY2025 ledger, category mix, vendor Pareto |
+| [02-TPRM-Framework](02-TPRM-Framework/) | DDQ, heat map, clause book, monitoring cadence |
+| [03-Cost-Optimization](03-Cost-Optimization/) | Negotiation mandate and the locked 7-year book |
 
----
+Phase folders `00_`–`06_` are the working papers behind those three doors.
 
-## 2. Core Modules & Repository Structure
+## Findings (simulated)
 
-| Folder | Purpose |
-| :--- | :--- |
-| [`01-Spend-Analysis/`](01-Spend-Analysis/) | Spend categories, bid decomposition, hidden-fee traps, and TCO models |
-| [`02-TPRM-Framework/`](02-TPRM-Framework/) | Vendor qualification, risk scoring, SAMA/PDPL residency, and governance |
-| [`03-Cost-Optimization/`](03-Cost-Optimization/) | Negotiation kit, contract clauses, SLA, and exit-cost strategy |
-
-Source working papers by process phase remain under `00_` … `06_`.
-
----
-
-## 3. Business Impact & Results (Simulated)
-
-- Built a TCO model that reversed a 37% “cheapest bid” advantage into a 23% cost overrun once hidden fees were added.
-- Applied a data-residency knockout so non-compliant development and test environments could not reach award.
-- Designed validation and onboarding controls intended to cut vendor-onboarding bottlenecks by ~30% in a live operating model.
-- Established price-benchmarking and clause-review methods to protect savings at renewal, not only at award.
-
----
-
-## How to read this repo
-
-1. This README 
-2. [`01-Spend-Analysis`](01-Spend-Analysis/) 
-3. [`02-TPRM-Framework`](02-TPRM-Framework/) 
-4. [`03-Cost-Optimization`](03-Cost-Optimization/) 
-
-Arabic and English versions of most working papers are in the phase folders (`*_EN.md`).
+- Three-year ledger: **USD 72.11 million**. Core Systems: **63.4%**.
+- Top two suppliers: **81.1%** of spend (concentration, not a panel).
+- Incumbent FY2025 maintenance: **22.3%** of the core licence.
+- Evaluation TCO for the winner: USD 56.75 million (5 years).  
+  Contracted value after talks: **USD 51.65 million / 7 years** (17.5% maintenance, sandbox at zero).
