@@ -1,0 +1,31 @@
+Year,Category,Vendor,Item,Amount_USD,Type,Status_Notes
+2023,Core Systems,Vendor A,Core license,12000000,Capex,Incumbent contract — 22% maintenance
+2023,Core Systems,Vendor A,Annual maintenance,2600000,Opex,Steps up ~5% a year
+2023,Consulting,Vendor B,Islamic-module implementation,4000000,Capex,Prior enhancement programme
+2023,Infrastructure,Local vendor,Central servers and storage,1500000,Capex,Partial refresh
+2023,National Integration,Vendor C,SADAD / SARIE integration,800000,Capex,Ongoing support wrap
+2023,Training / Support,Vendor D,Branch-staff training,300000,Opex,Covered 500 staff
+2023,Cybersecurity,Vendor E,Protective tooling and pen-test,500000,Capex,Annual refresh
+2023,Cloud,Vendor F,Temporary sandbox,450000,Opex,USD 37.5k per month
+2023,Auxiliary Software,Vendor G,Document management system,250000,Capex,Perpetual licence
+2023,Legal,Vendor H,Vendor-contract review,150000,Opex,External counsel
+2024,Core Systems,Vendor A,Core license,12500000,Capex,~4% annual step-up
+2024,Core Systems,Vendor A,Annual maintenance,2750000,Opex,Material rise versus prior year
+2024,Consulting,Vendor B,API / mobile-interface build,4200000,Capex,Mobile-app connectivity
+2024,Infrastructure,Local vendor,Internal network upgrade,1800000,Capex,Fibre refresh
+2024,National Integration,Vendor C,SWIFT / IPS integration,950000,Capex,Annual licence layer
+2024,Training / Support,Vendor D,Advanced technical training,350000,Opex,Core engineers
+2024,Cybersecurity,Vendor E,IDS / IPS upgrade,600000,Capex,Mandatory upgrade
+2024,Cloud,Vendor F,Dev / Test environments,480000,Opex,USD 30k above prior year
+2024,Auxiliary Software,Vendor G,CRM licence,280000,Capex,Partial integration
+2024,Legal,Vendor H,SAMA compliance contract review,180000,Opex,Expected increase
+2025,Core Systems,Vendor A,Core license,13000000,Capex,Full replacement now required
+2025,Core Systems,Vendor A,Annual maintenance,2900000,Opex,~22% of licence — critical
+2025,Consulting,Vendor B,Transformation strategy advice,4500000,Capex,Pre-CBS replacement
+2025,Infrastructure,Local vendor,Hybrid-cloud storage,1900000,Capex,Prepare new environment
+2025,National Integration,Vendor C,SARIE interface refresh,1000000,Capex,National mandate
+2025,Training / Support,Vendor D,Knowledge-transfer programme,400000,Opex,Workforce readiness
+2025,Cybersecurity,Vendor E,Third-party risk assessment,700000,Capex,SAMA-driven request
+2025,Cloud,Vendor F,Disaster-recovery environment,550000,Opex,Business continuity
+2025,Auxiliary Software,Vendor G,Business-intelligence platform,320000,Capex,Deferred until after CBS
+2025,Legal,Vendor H,New RFP contract drafting,200000,Opex,Residency clauses
