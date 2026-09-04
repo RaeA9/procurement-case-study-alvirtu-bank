@@ -5,8 +5,9 @@ Simulated tier-1 Saudi bank. Not a live engagement.
 
 ## Executive overview
 
-End-to-end sourcing file: spend ledger → third-party risk → contracted TCO.  
-The work is written to SAMA data-residency, PDPL, and TPRM practice — as a teaching case, not a regulatory filing.
+This repository features a comprehensive, simulated procurement and spend analytics case study for a Tier-1 banking environment. It bridges strategic sourcing, Pareto vendor concentration analysis, and Total Cost of Ownership (TCO) optimization models.
+
+The file runs spend ledger → third-party risk → contracted TCO, written to SAMA data-residency, PDPL, and TPRM practice — as a teaching case, not a regulatory filing.
 
 ## Repository structure
 
@@ -25,3 +26,5 @@ Phase folders `00_`–`06_` are the working papers behind those three doors.
 - Incumbent FY2025 maintenance: **22.3%** of the core licence.
 - Evaluation TCO for the winner: USD 56.75 million (5 years).  
   Contracted value after talks: **USD 51.65 million / 7 years** (17.5% maintenance, sandbox at zero).
+
+*Note: This is a simulated educational case study and does not reflect live institutional spend.*
