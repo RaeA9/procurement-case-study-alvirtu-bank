@@ -6,10 +6,10 @@ Simulated FY2023–FY2025 dataset. Not live bank spend.
 
 | File | Role |
 | :--- | :--- |
-| [01_Spend_Data_Model.xlsx](01_Spend_Data_Model.xlsx) | Raw ledger, category mix, vendor Pareto, replacement bridge |
+| [01_Spend_Data_Model-1.xlsx](01_Spend_Data_Model-1.xlsx) | Raw ledger, category mix, vendor Pareto, replacement bridge |
 | [01_Spend_Data_Model.csv](01_Spend_Data_Model.csv) | Same raw ledger for tools that cannot open xlsx |
 | [02_Spend_Analysis_Report.md](02_Spend_Analysis_Report.md) | Narrative for a hiring manager or category board |
-| [02_Spend_Analysis_Report.pdf](02_Spend_Analysis_Report.pdf) | Printable copy of the same report |
+| [02_Spend_Analysis_Report-1.pdf](02_Spend_Analysis_Report-1.pdf) | Printable copy of the same report |
 | [03_Spend_Optimization_Strategy.md](03_Spend_Optimization_Strategy.md) | How the ledger changes award design |
 
 ## Headline numbers (from the workbook)
